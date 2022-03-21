@@ -1,4 +1,5 @@
-//  Object
+//  object
+
 //  object는 property를 가진 데이터를 저장해주며, { } 를 사용함.
 const player = {
     name: "2nun",
@@ -15,10 +16,13 @@ console.log(player.food); // => true
 
 // property를 바꾸는 것은 가능하지만 선언된 object를 바꾸는 것은 불가능함.
 
-console.log(player);
 player.color = "pink";
 console.log(player.color);
 //  --> pink
+
+player.points = player.points + 59;
+console.log(player.points);
+//  --> 69
 
 //  그리고 property를 추가 할 수도 있다.
 
