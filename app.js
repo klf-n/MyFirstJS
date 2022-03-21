@@ -1,3 +1,5 @@
+/*  강의 출처: https://bit.ly/3L45zIP / 이거 보고 만들었음.  */
+
 /*  variable 만드는 방법 2가지, "const, let"
 "let" 은 생성할 때만 사용, const는 고정  */
 
