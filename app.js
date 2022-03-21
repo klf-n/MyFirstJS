@@ -1,15 +1,17 @@
-//  Booleans 사용법★
-//  true, false, null, underfined 모두 타입이기 때문에,
-// "true", "false", "null" 이렇게 쓰면 좆됨.
+//  데이터를 나열하기 위한 방법 중 하나.
 
-const amIFat= null; // <= True or False
-let something; //  이게바로 undefined
+//  항상 [ ] 안에 콤마(,)로 데이터들을 나열한다. 변수도 쓰일 수 있고, Boolean, Text, 숫자 등 데이터 정렬이 가능함.
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"]; // <=(ex)
 
-console.log(something, amIFat);
+//  만약, 위의 변수에서 5번째 element 값만 출력하려면 다음과 같이 하면 됨.
+console.log(daysOfWeek);
 
-//  우리가 기억할 것 : null 은 "절대로" 자연적으로 발생하지 않음.
-// null 은 우리가 Variable 안에 아무것도 없다는 것을 확실히 하기 위해 쓰는것
+//  컴퓨터는 숫자를 0부터 세기 때문에, "mon" 은 0번째라고 생각하면 됨.
+//  위의 상태에서 daysOfWeek이란 변수에 하나의 값을 더 넣고 싶다면 다음과 같이 하면 됨.
+daysOfWeek.push("holiday"); //  holiday를 수정하면 됨
 
-//  underfined와 null의 차이
-//  undefined: 변수는 선언했지만 값을 할당하지는 않음
-//  null: 변수에 null(값이 없다) 가 할당됨, 빈 방이라는 뜻
+console.log(daysOfWeek); //  그러고 나서 다시 한 번 실행해주기!
+
+//  Array 는 하나의 변수 안에 데이터의 List를 가지는 것.
+//  다른 프로그래밍 언어에도 있는 가장 기초적이고 필수적인 데이터 구조!
+// 값을 리스트로 정리하는 것.
